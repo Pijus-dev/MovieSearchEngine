@@ -5,7 +5,7 @@
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-    />
+    />background-image: linear-gradient(to right top, #707704, #878a2c, #9f9d49, #b5b166, #ccc583);
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.css"
@@ -24,12 +24,29 @@
           </h1>
         </div>
       </div>
-    </section>
-    <div class="container"></div>
-     <div class="autocomplete"></div>
-     <div id="summary"></div>
-
+    </section> 
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <div id="left-autocomplete"></div>
+          <div id="left-summary"></div>
+           </div>
+        
+        
+        <div class="column">
+          <div id="right-autocomplete"></div>
+          <div id="right-summary"></div>
+        </div>
+      </div>
+      <div class="column is-half notification is-primary tutorial">
+        <h1 class="title">Search for The Movie on both sides</h1>
+        <p class="subtitle">We will till you which movie is the best</p>
+        
+      </div>
+    </div>
+    
     <script src="utilities.js"></script>
+    <script src="autocomplete.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
